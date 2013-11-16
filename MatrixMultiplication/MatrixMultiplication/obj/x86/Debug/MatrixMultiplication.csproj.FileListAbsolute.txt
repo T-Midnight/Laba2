@@ -1,0 +1,5 @@
+d:\Laba2\MatrixMultiplication\MatrixMultiplication\bin\Debug\MatrixMultiplication.exe
+d:\Laba2\MatrixMultiplication\MatrixMultiplication\bin\Debug\MatrixMultiplication.pdb
+d:\Laba2\MatrixMultiplication\MatrixMultiplication\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Laba2\MatrixMultiplication\MatrixMultiplication\obj\x86\Debug\MatrixMultiplication.exe
+d:\Laba2\MatrixMultiplication\MatrixMultiplication\obj\x86\Debug\MatrixMultiplication.pdb
