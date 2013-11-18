@@ -6,13 +6,16 @@ namespace MatrixMultiplication {
     class Program {
 
         static void Main() {
+            // давай теперь у нас интерфейс на английском будет
             Console.WriteLine("Введите размер матриц: ");
             int size = Int32.Parse(Console.ReadLine());
+            // имена переменных с маленькой буквы
             int[,] Nonidentity = new int[size, size];
             int[,] Identity = new int[size, size];
             int[,] Result = new int[Nonidentity.GetLength(0), Identity.GetLength(1)];
             Random rand = new Random();
 
+            // Nonidentity.Length можно просто использовать
             for (int i = 0; i < Nonidentity.GetLength(0); i++) {
                 for (int j = 0; j < Nonidentity.GetLength(1); j++) {
                     Nonidentity[i, j] = rand.Next(0, 9);
